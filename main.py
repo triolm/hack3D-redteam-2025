@@ -2,10 +2,10 @@ import prepareMap
 import temperatureMap
 import detectEdges
 
-scalePath = "data/scale2.png"
-imgPath = "data/cylinder.png"
-minTemp = 26.0
-maxTemp = 195
+scalePath = "data/scale.png"
+imgPath = "data/cube.png"
+minTemp = 24.6
+maxTemp = 153
 
 normalizedMap = temperatureMap.getNormalizedData(scalePath, minTemp, maxTemp)
 
